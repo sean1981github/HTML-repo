@@ -1,0 +1,32 @@
+.root {
+  font-size: 16px;
+}
+
+.header {
+  background-color: royalblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+.header h1 {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+
+a:hover {
+  color: salmon;
+}
+
+a:active {
+  color: springgreen;
+}

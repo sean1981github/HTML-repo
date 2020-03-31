@@ -1,0 +1,52 @@
+@import "./header.css";
+@import "./footer.css";
+
+.resume {
+  display: grid;
+  grid-template-areas:
+    "name name"
+    "address address"
+    "experience skills"
+    "experience education"
+    "personal personal";
+
+  border: 1px solid black;
+  margin: 16px;
+  padding: 16px;
+  grid-gap: 20px;
+  border-radius: 4px;
+  background-color: lightcyan;
+}
+
+.resume-title {
+  grid-area: name;
+}
+
+.resume-title h1 {
+  grid-area: name;
+  text-align: center;
+}
+
+.address {
+  grid-area: address;
+  display: flex;
+  justify-content: center;
+}
+.experience {
+  grid-area: experience;
+  list-style: none;
+}
+
+.experience li {
+  padding: 8px;
+}
+
+.skills {
+  grid-area: skills;
+}
+.education {
+  grid-area: education;
+}
+.personal {
+  grid-area: personal;
+}

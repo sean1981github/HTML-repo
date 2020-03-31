@@ -1,0 +1,21 @@
+@import "./header.css";
+@import "./footer.css";
+
+.blog-article {
+  border: 2px solid royalblue;
+  margin: 10px;
+  border-radius: 4px;
+  background-color: tan;
+  padding: 8px;
+}
+
+.blog-link {
+  display: flex;
+  justify-content: right;
+  font-size: 1rem;
+}
+
+.blog-link1 {
+  text-align: right;
+  font-size: 1rem;
+}
