@@ -2,7 +2,8 @@
 @import "./footer.css";
 
 body {
-  margin: 8;
+  /* always define the unit: 8px, 8em, 8rem, 8pt */
+  margin: 8; 
 }
 
 nav {
