@@ -32,21 +32,26 @@
   display: flex;
   justify-content: center;
 }
-.experience {
+.experience { /* add a line break for better readability */
   grid-area: experience;
   list-style: none;
 }
 
 .experience li {
+  /* 
+    Not sure if this is intended,
+    but the padding give a inconsist spacing 
+    compare to skills, education, person
+  */
   padding: 8px;
 }
 
 .skills {
   grid-area: skills;
 }
-.education {
+.education { /* add a line break for better readability */
   grid-area: education;
 }
-.personal {
+.personal { /* add a line break for better readability */
   grid-area: personal;
 }
